@@ -1,2 +1,2 @@
 # scripts
-Python automation scripts for things I hate doing.
+Simple automation for the aspiring sysadmin.
