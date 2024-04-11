@@ -18,6 +18,7 @@ def check_host_by_name(domain):
     # if CNAME cannot be found
     except dns.NoAnswer:
         print('No record found for {domain}')
+        # running pass will allow the query to continue even if a record is not found.
         pass
     #If domain is not found, print exception, or else this will error out.
     except dns.NXDOMAIN:
